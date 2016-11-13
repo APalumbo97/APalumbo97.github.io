@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <title>My Projects</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Anthony Palumbo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scaleable=no"/>
+    <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+    <script type="text/javascript" src="../scripts/toggle.js"></script>
+</head>
+<body>
+    <header>
+        <h1>anthonypalumbo.net</h1>
+    </header>
+    <nav>
+        <div class="handle" onClick="toggle();">Menu<img style="float: right;" src="../images/menu.ico"/></div>
+        <ul class="" id="tog">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="resume.html"><li>Resume</li></a>
+            <a href="connect.html"><li>Connect</li></a>
+        </ul>
+    </nav>
+    <h1 style="text-align: center;">Projects</h1>
+    <p class="projects">Lasers GUI:<br/><img id="laser" src="../images/lasers.jpg" alt="Lasers GUI" width="450" height="450"/>
+        <br/><br/>
+        Project done for Computer Science 2 in Java. The project consisted of creating a GUI for a game that the
+        professors created that included lasers and bank vaults that goblins stored their prized posessions in. There
+        were two stages that were done with a partner. The first part of the project consisted of making a model for the
+        game that operated with a plain text user interface(PTUI) and could be run on the command line. The second part
+        was adding backtracking functionality and a graphical user interface(GUI) for the game. The GUI used JavaFX and
+        followed the model-view-controller pattern. After the project was completed either the PTUI or GUI could be used
+        depending on the program arguments when run.
+    </p>
+    <p class="projects">This website: <a id="githubLink" href="http://github.com/APalumbo97/myWebsite">myWebsite</a>
+        <br/><br/>This website is on my Github, it was created from scratch using just HTML, CSS, and Javascript.
+        Cool features include a navbar and a responsive design.
+    </p>
+    <p class="projects">Health Monitoring System:<br/><br/>
+        Project done for a software engineering class in C. The project simulated a primitive system that a hospital
+        could use to monitor patient data including temperature, heart rate, respiration rate, and systolic and
+        diastolic blood pressure. The program stored data in a circular buffer that held the ten most recent values
+        inputed for a specific patient and information type. The project was coded in a text-editor and run on the
+        command line.
+    </p>
+    <p class="projects">HealthNet:<br/><br/>
+        Web Application for a software engineering class. The project was completed using the framework Django and
+        python. The application is used for hospitals to organize information about employees and patients and can
+        store medical records for the patients. From the main page a patient or employee can login and view their
+        account information and they are able to schedule appointments with doctors. On the accounts homepage there is
+        a calendar that shows all appointments with either patients and doctors depending on who is logged it. Admins
+        can view information for all users and can change things as necessary.
+    </p>
+    <footer>Copyright &copy; 2016 Copyright Holder All Rights Reserved. Anthony Palumbo</footer>
+</body>
+</html>

@@ -1,0 +1,322 @@
+/**
+ * Author: Anthony Palumbo
+ */
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/wallpaper.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: white;
+    max-width: 1920px;
+    max-height: 1080px;
+    min-width: 60px;
+    width: device-width;
+    font-family: arial;
+    font-size: 12;
+    zoom: 100%;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+header {
+    width: 100%;
+    padding: 40px 0;
+    color: gold;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-style: italic;
+}
+
+footer {
+    font-family: "Times New Roman";
+    font-size: 0.75em;
+    text-align: center;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 20px;
+}
+
+nav ul {
+    background-color: #2B2B2B;
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    -webkit-transition: max-height 0.4s;
+    -ms-transition: max-height 0.4s;
+    -moz-transition: max-height 0.4s;
+    -o-transition: max-height 0.4s;
+    transition: max-height 0.4s;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li:hover {
+    background-color: #636363;
+}
+
+nav ul a {
+    color: white;
+}
+
+#insta {
+    color: #458EFF;
+    text-decoration: none;
+}
+
+#insta:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#insta:active {
+    color: red;
+}
+
+#resume {
+    text-align: center;
+}
+
+#paragraph {
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+    text-align: left;
+    padding: 5%;
+    width: 80%;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+#liBadge {
+    margin: 20px;
+}
+
+#githubLink {
+    color: #95FF60;
+    text-decoration: none;
+}
+
+#githubLink:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#githubLink:active {
+    color: red;
+}
+
+#resLink {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+#resLink:hover {
+    color: blue;
+}
+
+#resLink:active {
+    color: red;
+}
+
+#merit {
+    color: #24A6B2;
+    text-decoration: none;
+}
+
+#merit:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#merit:active {
+    color: red;
+}
+
+#email {
+    color: #FF6060;
+    text-decoration: none;
+}
+
+#email:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#email:active {
+    color: red;
+}
+
+#info {
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+.handle {
+    width: 100%;
+    background: #636363;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.links {
+    text-decoration: none;
+    color: aqua;
+}
+
+.links:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.links:active {
+    color: red;
+}
+
+.res {
+    background-color: #2B2B2B;
+    color: white;
+    padding: 5%;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 5%;
+    width: 80%;
+}
+
+.resItems {
+    margin: 2em;
+}
+
+.largeBox {
+    width: 100%;
+    margin: 1em;
+    float: center;
+}
+
+.left {
+    float: left;
+    width: 40%;
+    margin: 0px 0px 0px 4em;
+    background-color: rgba(255,255,255,0.4);
+    padding: 15px 40px 0px 15px;
+    border: 1px solid white;
+    border-radius: 2em;
+}
+
+.right {
+    width: 45%;
+    float: right;
+    background-color: rgba(255,255,255,0.4);
+    margin: 0em 4em 4em 0em;
+    border: 1px solid white;
+    border-radius: 2em;
+}
+
+.projects {
+    margin: 5em;
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+    background-color: rgba(255,255,255,0.65);
+    color: black;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 886px) {
+    .left {
+        float: center;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 4em;
+    }
+
+    .right {
+        float: left;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    nav ul {
+        max-height: 0px;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    nav ul li {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 15px;
+        text-align: left;
+    }
+
+    .handle {
+        background: #2B2B2B;
+        display: block;
+    }
+
+    .res {
+        width: 100%;
+        margin: 0px auto;
+        border: none;
+        border-radius: 0px;
+    }
+
+    .largeBox {
+        width: 100%;
+        margin: auto;
+    }
+
+    .left {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 0em;
+    }
+
+    .right {
+        float: left;
+        margin: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0em;
+    }
+
+    .projects {
+        margin: 0em;
+        margin-bottom: 2em;
+        border: none;
+        border-radius: 0em;
+        padding: 1.5em;
+    }
+
+    #paragraph {
+        border: 0px;
+        border-radius: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+}
