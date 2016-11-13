@@ -28,10 +28,11 @@ body {
 header {
     width: 100%;
     padding: 40px 0;
-    color: gold;
+    color: #04FF00;
     text-align: center;
     font-family: "Times New Roman";
     font-style: italic;
+    font-weight: bold;
 }
 
 footer {
@@ -73,7 +74,7 @@ nav ul a {
 }
 
 #insta {
-    color: #458EFF;
+    color: #0033DB;
     text-decoration: none;
 }
 
@@ -88,6 +89,8 @@ nav ul a {
 
 #resume {
     text-align: center;
+    color: red;
+    text-shadow: 2px 2px 8px #FF0000;
 }
 
 #paragraph {
@@ -106,7 +109,7 @@ nav ul a {
 }
 
 #githubLink {
-    color: #95FF60;
+    color: #0033DB;
     text-decoration: none;
 }
 
@@ -134,7 +137,7 @@ nav ul a {
 }
 
 #merit {
-    color: #24A6B2;
+    color: #007263;
     text-decoration: none;
 }
 
@@ -148,7 +151,7 @@ nav ul a {
 }
 
 #email {
-    color: #FF6060;
+    color: red;
     text-decoration: none;
 }
 
@@ -168,6 +171,11 @@ nav ul a {
     line-height: 1.5em;
 }
 
+.center-title {
+    text-align: center;
+    color: #04FF00;
+}
+
 .handle {
     width: 100%;
     background: #636363;
@@ -180,7 +188,7 @@ nav ul a {
 
 .links {
     text-decoration: none;
-    color: aqua;
+    color: #0033DB;
 }
 
 .links:hover {
@@ -216,7 +224,7 @@ nav ul a {
     float: left;
     width: 40%;
     margin: 0px 0px 0px 4em;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.7);
     padding: 15px 40px 0px 15px;
     border: 1px solid white;
     border-radius: 2em;
@@ -225,7 +233,7 @@ nav ul a {
 .right {
     width: 45%;
     float: right;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.7);
     margin: 0em 4em 4em 0em;
     border: 1px solid white;
     border-radius: 2em;
