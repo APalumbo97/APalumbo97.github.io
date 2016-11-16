@@ -39,13 +39,13 @@ header {
 
 footer {
     font-family: "Times New Roman";
-    font-size: 0.75em;
+    font-size: 1em;
     text-align: center;
     position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    height: 20px;
+    height: 30px;
 }
 
 nav ul {
@@ -123,9 +123,10 @@ nav ul a {
 }
 
 #left {
-    float: left;
-    width: 40%;
-    margin: 0px 0px 0px 4em;
+    float: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4em;
     background-color: rgba(255,255,255,0.7);
     padding: 15px 40px 0px 15px;
     border: 1px solid white;
@@ -135,6 +136,8 @@ nav ul a {
 
 #liBadge {
     margin: 20px;
+    float: center;
+    text-align: center;
 }
 
 #paragraph {
@@ -149,8 +152,8 @@ nav ul a {
 }
 
 #right {
-    width: 45%;
-    float: right;
+    width: 100%;
+    float: left;
     background-color: rgba(255,255,255,0.7);
     margin: 0em 4em 4em 0em;
     border: 1px solid white;
@@ -175,25 +178,11 @@ nav ul a {
 #resume {
     text-align: center;
     color: red;
-    text-shadow: 2px 2px 8px #FF0000;
+    text-shadow: 2px 2px 8px #04FF00;
 }
 
 #resume-title {
     text-align: center;
-}
-
-@media screen and (max-width: 1275px) {
-    #left {
-        float: center;
-        width: 100%;
-        margin: auto;
-        margin-bottom: 4em;
-    }
-
-    #right {
-        float: left;
-        width: 100%;
-    }
 }
 
 @media screen and (max-width: 580px) {
