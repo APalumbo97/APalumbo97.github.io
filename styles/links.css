@@ -32,6 +32,20 @@
     color: red;
 }
 
+#email {
+    color: red;
+    text-decoration: none;
+}
+
+#email:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#email:active {
+    color: red;
+}
+
 #insta {
     color: #0033DB;
     text-decoration: none;
@@ -46,6 +60,20 @@
     color: red;
 }
 
+#merit {
+    color: #007263;
+    text-decoration: none;
+}
+
+#merit:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#merit:active {
+    color: red;
+}
+
 #resLink {
     text-align: center;
     color: white;
@@ -57,19 +85,5 @@
 }
 
 #resLink:active {
-    color: red;
-}
-
-#email {
-    color: red;
-    text-decoration: none;
-}
-
-#email:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-#email:active {
     color: red;
 }

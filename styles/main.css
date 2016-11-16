@@ -1,7 +1,7 @@
 /**
  * Author: Anthony Palumbo
  * Date: 11-16-16
- * Description: CSS for the entire website.
+ * Description: Main CSS file for website.
  */
 
 html {
@@ -75,76 +75,6 @@ nav ul a {
     color: white;
 }
 
-#resume {
-    text-align: center;
-    color: red;
-    text-shadow: 2px 2px 8px #FF0000;
-}
-
-#paragraph {
-    color: white;
-    background-color: rgba(0,0,0,0.65);
-    text-align: left;
-    padding: 5%;
-    width: 80%;
-    border: 1px black solid;
-    border-radius: 10px;
-    margin: 20px auto;
-}
-
-#liBadge {
-    margin: 20px;
-}
-
-#merit {
-    color: #007263;
-    text-decoration: none;
-}
-
-#merit:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-#merit:active {
-    color: red;
-}
-
-#rightList {
-    list-style: none;
-}
-
-#left {
-    float: left;
-    width: 40%;
-    margin: 0px 0px 0px 4em;
-    background-color: rgba(255,255,255,0.7);
-    padding: 15px 40px 0px 15px;
-    border: 1px solid white;
-    border-radius: 2em;
-    color: black;
-}
-
-#right {
-    width: 45%;
-    float: right;
-    background-color: rgba(255,255,255,0.7);
-    margin: 0em 4em 4em 0em;
-    border: 1px solid white;
-    border-radius: 2em;
-    color: black;
-}
-
-#res {
-    background-color: #2B2B2B;
-    color: white;
-    padding: 5%;
-    border: 1px black solid;
-    border-radius: 20px;
-    margin: 5%;
-    width: 80%;
-}
-
 .center-title {
     text-align: center;
     color: #04FF00;
@@ -165,10 +95,6 @@ nav ul a {
     padding: 1em;
     text-align: left;
     line-height: 1.5em;
-}
-
-.resItems {
-    margin: 2em;
 }
 
 .largeBox {
@@ -192,7 +118,71 @@ nav ul a {
     border-radius: 20px;
 }
 
-@media screen and (max-width: 886px) {
+.resItems {
+    margin: 2em;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    margin: 0px 0px 0px 4em;
+    background-color: rgba(255,255,255,0.7);
+    padding: 15px 40px 0px 15px;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: black;
+}
+
+#liBadge {
+    margin: 20px;
+}
+
+#paragraph {
+    color: white;
+    background-color: rgba(0,0,0,0.65);
+    text-align: left;
+    padding: 5%;
+    width: 80%;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+#right {
+    width: 45%;
+    float: right;
+    background-color: rgba(255,255,255,0.7);
+    margin: 0em 4em 4em 0em;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: black;
+}
+
+#rightList {
+    list-style: none;
+}
+
+#res {
+    background-color: #2B2B2B;
+    color: white;
+    padding: 5%;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 5%;
+    width: 80%;
+}
+
+#resume {
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px 8px #FF0000;
+}
+
+#resume-title {
+    text-align: center;
+}
+
+@media screen and (max-width: 1275px) {
     #left {
         float: center;
         width: 100%;
@@ -211,10 +201,6 @@ nav ul a {
         max-height: 0px;
     }
 
-    .showing {
-        max-height: 20em;
-    }
-
     nav ul li {
         width: 100%;
         box-sizing: border-box;
@@ -227,32 +213,9 @@ nav ul a {
         display: block;
     }
 
-    .res {
-        width: 100%;
-        margin: 0px auto;
-        border: none;
-        border-radius: 0px;
-    }
-
     .largeBox {
         width: 100%;
         margin: auto;
-    }
-
-    #left {
-        margin: 0;
-        width: 100%;
-        margin-bottom: 30px;
-        border: none;
-        border-radius: 0em;
-    }
-
-    #right {
-        float: left;
-        margin: 0;
-        width: 100%;
-        border: none;
-        border-radius: 0em;
     }
 
     .projects {
@@ -263,10 +226,37 @@ nav ul a {
         padding: 1.5em;
     }
 
+    .res {
+        width: 100%;
+        margin: 0px auto;
+        border: none;
+        border-radius: 0px;
+    }
+
+    .showing {
+        max-height: 20em;
+    }
+
+    #left {
+        margin: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        border: none;
+        border-radius: 0em;
+    }
+
     #paragraph {
         border: 0px;
         border-radius: 0px;
         margin: 0px;
         width: 100%;
+    }
+
+    #right {
+        float: left;
+        margin: 0;
+        width: 100%;
+        border: none;
+        border-radius: 0em;
     }
 }
