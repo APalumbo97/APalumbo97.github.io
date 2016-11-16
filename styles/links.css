@@ -1,0 +1,75 @@
+/**
+ * Author: Anthony Palumbo
+ * Date: 11-16-16
+ * Description: CSS for links
+ */
+
+.githubLink {
+    color: #229633;
+    text-decoration: none;
+}
+
+.githubLink:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.githubLink:active {
+    color: red;
+}
+
+.links {
+    text-decoration: none;
+    color: #0033DB;
+}
+
+.links:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.links:active {
+    color: red;
+}
+
+#insta {
+    color: #0033DB;
+    text-decoration: none;
+}
+
+#insta:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#insta:active {
+    color: red;
+}
+
+#resLink {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+#resLink:hover {
+    color: blue;
+}
+
+#resLink:active {
+    color: red;
+}
+
+#email {
+    color: red;
+    text-decoration: none;
+}
+
+#email:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#email:active {
+    color: red;
+}

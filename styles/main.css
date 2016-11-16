@@ -75,20 +75,6 @@ nav ul a {
     color: white;
 }
 
-#insta {
-    color: #0033DB;
-    text-decoration: none;
-}
-
-#insta:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-#insta:active {
-    color: red;
-}
-
 #resume {
     text-align: center;
     color: red;
@@ -110,34 +96,6 @@ nav ul a {
     margin: 20px;
 }
 
-#githubLink {
-    color: #229633;
-    text-decoration: none;
-}
-
-#githubLink:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-#githubLink:active {
-    color: red;
-}
-
-#resLink {
-    text-align: center;
-    color: white;
-    text-decoration: underline;
-}
-
-#resLink:hover {
-    color: blue;
-}
-
-#resLink:active {
-    color: red;
-}
-
 #merit {
     color: #007263;
     text-decoration: none;
@@ -152,25 +110,39 @@ nav ul a {
     color: red;
 }
 
-#email {
-    color: red;
-    text-decoration: none;
+#rightList {
+    list-style: none;
 }
 
-#email:hover {
-    color: blue;
-    text-decoration: underline;
+#left {
+    float: left;
+    width: 40%;
+    margin: 0px 0px 0px 4em;
+    background-color: rgba(255,255,255,0.7);
+    padding: 15px 40px 0px 15px;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: black;
 }
 
-#email:active {
-    color: red;
+#right {
+    width: 45%;
+    float: right;
+    background-color: rgba(255,255,255,0.7);
+    margin: 0em 4em 4em 0em;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: black;
 }
 
-#info {
-    margin: 1em;
-    padding: 1em;
-    text-align: left;
-    line-height: 1.5em;
+#res {
+    background-color: #2B2B2B;
+    color: white;
+    padding: 5%;
+    border: 1px black solid;
+    border-radius: 20px;
+    margin: 5%;
+    width: 80%;
 }
 
 .center-title {
@@ -188,28 +160,11 @@ nav ul a {
     display: none;
 }
 
-.links {
-    text-decoration: none;
-    color: #0033DB;
-}
-
-.links:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-.links:active {
-    color: red;
-}
-
-.res {
-    background-color: #2B2B2B;
-    color: white;
-    padding: 5%;
-    border: 1px black solid;
-    border-radius: 20px;
-    margin: 5%;
-    width: 80%;
+.info {
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
 }
 
 .resItems {
@@ -222,23 +177,8 @@ nav ul a {
     float: center;
 }
 
-.left {
-    float: left;
-    width: 40%;
-    margin: 0px 0px 0px 4em;
-    background-color: rgba(255,255,255,0.7);
-    padding: 15px 40px 0px 15px;
-    border: 1px solid white;
-    border-radius: 2em;
-}
-
-.right {
-    width: 45%;
+.menuImg {
     float: right;
-    background-color: rgba(255,255,255,0.7);
-    margin: 0em 4em 4em 0em;
-    border: 1px solid white;
-    border-radius: 2em;
 }
 
 .projects {
@@ -253,14 +193,14 @@ nav ul a {
 }
 
 @media screen and (max-width: 886px) {
-    .left {
+    #left {
         float: center;
         width: 100%;
         margin: auto;
         margin-bottom: 4em;
     }
 
-    .right {
+    #right {
         float: left;
         width: 100%;
     }
@@ -299,7 +239,7 @@ nav ul a {
         margin: auto;
     }
 
-    .left {
+    #left {
         margin: 0;
         width: 100%;
         margin-bottom: 30px;
@@ -307,7 +247,7 @@ nav ul a {
         border-radius: 0em;
     }
 
-    .right {
+    #right {
         float: left;
         margin: 0;
         width: 100%;

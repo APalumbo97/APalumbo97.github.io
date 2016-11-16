@@ -5,9 +5,10 @@
     <title>My Projects</title>
     <meta charset="utf-8"/>
     <meta name="author" content="Anthony Palumbo"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scaleable=no"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="shortcut icon" type="image/ico" href="../images/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/links.css"/>
     <script type="text/javascript" src="../scripts/toggle.js"></script>
 </head>
 <body>
@@ -15,7 +16,7 @@
         <h1>anthonyjpalumbo.net</h1>
     </header>
     <nav>
-        <div class="handle" onClick="toggle();">Menu<img style="float: right;" src="../images/menu.ico"/></div>
+        <div class="handle" onClick="toggle();">Menu<img class="menuImg" src="../images/menu.ico"/></div>
         <ul class="" id="tog">
             <a href="../index.html"><li>Home</li></a>
             <a href="projects.html"><li>Projects</li></a>
@@ -24,8 +25,8 @@
         </ul>
     </nav>
     <h1 class="center-title">Projects</h1>
-    <p class="projects">Lasers GUI:<br/><img id="laser" src="../images/lasers.jpg" alt="Lasers GUI" width="450" height="450"/>
-        <br/><br/>
+    <p class="projects">Lasers GUI:<br/><img id="laser" src="../images/lasers.jpg" alt="Lasers GUI" width="450"
+        height="450"/><br/><br/>
         Project done for Computer Science 2 in Java. The project consisted of creating a GUI for a game that the
         professors created that included lasers and bank vaults that goblins stored their prized posessions in. There
         were two stages that were done with a partner. The first part of the project consisted of making a model for the
@@ -34,12 +35,12 @@
         followed the model-view-controller pattern. After the project was completed either the PTUI or GUI could be used
         depending on the program arguments when run.
     </p>
-    <p class="projects">This website: <a id="githubLink" href="http://github.com/APalumbo97/APalumbo97.github.io">
+    <p class="projects">This website: <a class="githubLink" href="http://github.com/APalumbo97/APalumbo97.github.io">
         APalumbo97.github.io</a>
         <br/><br/>This website is on my Github, it was created from scratch using just HTML, CSS, and Javascript.
         Cool features include a navbar and a responsive design.
     </p>
-    <p class="projects">String Sorter: <a id="githubLink" href="http://github.com/APalumbo97/C-String-Sort">
+    <p class="projects">String Sorter: <a class="githubLink" href="http://github.com/APalumbo97/C-String-Sort">
         C-String-Sort</a>
         <br/><br/>This project is simply one C file. It reads an input file and sorts all the words alphabetically
         regardless of case, upper and lower case strings are equivalent. The maximum number of strings is set to
