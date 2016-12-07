@@ -226,7 +226,7 @@ nav ul a {
         max-height: 20em;
     }
 
-    #left {
+    #top {
         margin: 0;
         width: 100%;
         margin-bottom: 30px;
@@ -241,7 +241,7 @@ nav ul a {
         width: 100%;
     }
 
-    #right {
+    #bottom {
         float: left;
         margin: 0;
         width: 100%;
