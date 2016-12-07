@@ -32,32 +32,34 @@
     color: red;
 }
 
-#email {
-    color: red;
-    text-decoration: none;
+#emailIcon {
+    color: gray;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
-#email:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-#email:active {
+#emailIcon:hover {
     color: red;
 }
 
-#insta {
-    color: #0033DB;
-    text-decoration: none;
+#githubIcon {
+    color: gray;
+    margin-left: 40%;
+    margin-right: 40%;
 }
 
-#insta:hover {
-    color: blue;
-    text-decoration: underline;
+#githubIcon:hover {
+    color: #6CC644;
 }
 
-#insta:active {
-    color: red;
+#instaIcon {
+    color: gray;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#instaIcon:hover {
+    color: #BC2A8D;
 }
 
 #merit {
@@ -86,4 +88,14 @@
 
 #resLink:active {
     color: red;
+}
+
+#twitterIcon {
+    color: gray;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#twitterIcon:hover {
+    color: #00ACED;
 }

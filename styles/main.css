@@ -122,16 +122,18 @@ nav ul a {
     margin: 2em;
 }
 
-#left {
-    float: center;
+#bottom {
     width: 100%;
-    margin: auto;
-    margin-bottom: 4em;
+    float: left;
     background-color: rgba(255,255,255,0.7);
-    padding: 15px 40px 0px 15px;
+    margin: 0em 4em 4em 0em;
     border: 1px solid white;
     border-radius: 2em;
     color: black;
+}
+
+#bottomList {
+    list-style: none;
 }
 
 #liBadge {
@@ -149,20 +151,6 @@ nav ul a {
     border: 1px black solid;
     border-radius: 10px;
     margin: 20px auto;
-}
-
-#right {
-    width: 100%;
-    float: left;
-    background-color: rgba(255,255,255,0.7);
-    margin: 0em 4em 4em 0em;
-    border: 1px solid white;
-    border-radius: 2em;
-    color: black;
-}
-
-#rightList {
-    list-style: none;
 }
 
 #res {
@@ -183,6 +171,18 @@ nav ul a {
 
 #resume-title {
     text-align: center;
+}
+
+#top {
+    float: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 4em;
+    background-color: rgba(255,255,255,0.7);
+    padding: 15px 40px 0px 15px;
+    border: 1px solid white;
+    border-radius: 2em;
+    color: black;
 }
 
 @media screen and (max-width: 580px) {
