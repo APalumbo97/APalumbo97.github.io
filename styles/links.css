@@ -18,20 +18,6 @@
     color: red;
 }
 
-.links {
-    text-decoration: none;
-    color: #0033DB;
-}
-
-.links:hover {
-    color: blue;
-    text-decoration: underline;
-}
-
-.links:active {
-    color: red;
-}
-
 #emailIcon {
     color: gray;
     margin-left: 40%;
