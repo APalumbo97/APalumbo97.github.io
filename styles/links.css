@@ -85,3 +85,13 @@
 #twitterIcon:hover {
     color: #00ACED;
 }
+
+#stackIcon {
+    color: gray;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#stackIcon:hover {
+    color: #CE7B00;
+}

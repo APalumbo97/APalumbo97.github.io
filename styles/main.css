@@ -122,6 +122,12 @@ nav ul a {
     margin: 2em;
 }
 
+.images {
+    width: 450px;
+    height: auto;
+    margin: 0;
+}
+
 #bottom {
     width: 100%;
     float: left;
@@ -224,6 +230,11 @@ nav ul a {
 
     .showing {
         max-height: 20em;
+    }
+
+    .images {
+        width: 100%;
+        height: auto;
     }
 
     #top {
