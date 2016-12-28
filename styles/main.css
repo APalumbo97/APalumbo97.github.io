@@ -197,6 +197,7 @@ nav ul a {
         border: none;
         float: left;
         border-radius: 0em;
+        padding: 0;
     }
 
     .handle {
@@ -206,7 +207,8 @@ nav ul a {
 
     .largeBox {
         width: 100%;
-        margin: auto;
+        margin: 0;
+        padding: 0;
     }
 
     .projects {
@@ -238,5 +240,6 @@ nav ul a {
         border-radius: 0px;
         margin: 0px;
         width: 100%;
+        padding: 0;
     }
 }
