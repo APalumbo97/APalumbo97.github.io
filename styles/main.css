@@ -127,10 +127,6 @@ nav ul a {
     border-radius: 20px;
 }
 
-.resItems {
-    margin: 2em;
-}
-
 .images {
     width: 450px;
     height: auto;
@@ -170,12 +166,16 @@ nav ul a {
 
 #resume {
     text-align: center;
-    color: red;
-    text-shadow: 2px 2px 8px #04FF00;
+    color: #04FF00;
+    font-size: 2em;
+    /*text-shadow: 2px 2px 8px #04FF00;*/
 }
 
-#resume-title {
-    text-align: center;
+#resumeImage {
+    width: 75%;
+    height: auto;
+    margin: 0;
+    float: center;
 }
 
 @media screen and (max-width: 580px) {
