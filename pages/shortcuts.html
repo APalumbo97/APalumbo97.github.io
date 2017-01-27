@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+    <title>Shortcuts</title>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Anthony Palumbo"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="../styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../styles/links.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="../images/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="../images/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="../images/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="../images/manifest.json">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="anthonyjpalumbo.net">
+    <meta name="application-name" content="anthonyjpalumbo.net">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="text/javascript" src="../scripts/toggle.js"></script>
+</head>
+<body>
+    <header>
+        <h1>anthonyjpalumbo.net</h1>
+    </header>
+    <nav>
+        <div class="handle" onClick="toggle();">Menu<img class="menuImg" src="../images/menu.ico"/></div>
+        <ul class="" id="tog">
+            <a href="../index.html"><li>Home</li></a>
+            <a href="projects.html"><li>Projects</li></a>
+            <a href="resume.html"><li>Resume</li></a>
+            <a href="connect.html"><li>Connect</li></a>
+            <a href="shortcuts.html"><li>Shortcuts</li></a>
+        </ul>
+    </nav>
+    <h1 class="center-title">Shortcuts</h1>
+    <br/><br/><br/>
+    <div id=shortcuts>
+        <h3>Navigation</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>cd ~</td>
+                <td>Changes the directory to the home.</td>
+            </tr>
+            <tr>
+                <td>cd directory-name</td>
+                <td>Changes the directory to the specified one.</td>
+            </tr>
+            <tr>
+                <td>cd ..</td>
+                <td>Moves up one directory.</td>
+            </tr>
+            <tr>
+                <td>cd - </td>
+                <td>Switched back to the previous directory.</td>
+            </tr>
+            <tr>
+                <td>ls</td>
+                <td>Lists the contents of the current directory.</td>
+            </tr>
+            <tr>
+                <td>ls -a</td>
+                <td>Lists the contents of the current directory including invisible files/directories.</td>
+            </tr>
+            <tr>
+                <td>ls -l</td>
+                <td>Lists the contents of the current directory vertically with file size, permissions, etc.</td>
+            </tr>
+            <tr>
+                <td>ls -F</td>
+                <td>Lists the contents of the current directory with "/" after sub-directories.</td>
+            </tr>
+            <tr>
+                <td>ls *.ext</td>
+                <td>Lists only the files with the extension ".ext", works with any extension.</td>
+            </tr>
+            <tr>
+                <td>mkdir name</td>
+                <td>Creates a new directory with the specified name.</td>
+            </tr>
+            <tr>
+                <td>vim filename</td>
+                <td>Opens a text file with the vim editor (":q!" to exit if unfamiliar with vim).</td>
+            </tr>
+            <tr>
+                <td>pwd</td>
+                <td>Prints the current directory path.</td>
+            </tr>
+            <tr>
+                <td>chmod +x filename</td>
+                <td>Adds executable permission to a file.</td>
+            </tr>
+            <tr>
+                <td>chmod +r filename</td>
+                <td>Adds read permission to a file.</td>
+            </tr>
+            <tr>
+                <td>chmod +w filename</td>
+                <td>Adds write permission to a file.</td>
+            </tr>
+            <tr>
+                <td>cat filename</td>
+                <td>Displays a text file in the terminal.</td>
+            </tr>
+            <tr>
+                <td>grep "expression"</td>
+                <td>Searches for all instances of the expression in the current directory.</td>
+            </tr>
+            <tr>
+                <td>head filename</td>
+                <td>Displays the first 10 lines of a file.</td>
+            </tr>
+            <tr>
+                <td>tail filename</td>
+                <td>Displays the last 10 lines of a file.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>Moving, removing, and copying files.</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>mv oldname newname</td>
+                <td>Rename the old file to the new filename.</td>
+            </tr>
+            <tr>
+                <td>mv filename /path/to/new/location</td>
+                <td>Moves the file to the specified path.</td>
+            </tr>
+            <tr>
+                <td>rm filename</td>
+                <td>Removes the file.</td>
+            </tr>
+            <tr>
+                <td>rm *</td>
+                <td>Removes everything in the directory.</td>
+            </tr>
+            <tr>
+                <td>rm -r directory-name</td>
+                <td>Removes everything inside a directory, then removes the directory.</td>
+            </tr>
+            <tr>
+                <td>rmdir directory-name</td>
+                <td>Removes an empty directory.</td>
+            </tr>
+            <tr>
+                <td>cp oldfile newfile</td>
+                <td>Copies the old file into one with the new name.</td>
+            </tr>
+            <tr>
+                <td>cp file destination/to/go</td>
+                <td>Copies the file to the new destination.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>SSH and SCP</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>ssh username@target-host</td>
+                <td>Connects to the target host using the secure shell.</td>
+            </tr>
+            <tr>
+                <td>scp username@target-host:~/path/to/file .</td>
+                <td>Copies the file from the remote server to the current directory.</td>
+            </tr>
+            <tr>
+                <td>scp -r username@target-host:~/path/to/directory .</td>
+                <td>Copies all the contents of the directory on the remote server to the current directory.</td>
+            </tr>
+            <tr>
+                <td>scp username@target1:~/path/to/source/file username@target2:~/path/to/copy/location</td>
+                <td>Copies the file from target 1 to the directory in target 2.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>Git</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>git init project-name</td>
+                <td>Initializes a directory with a .git folder inside it.</td>
+            </tr>
+            <tr>
+                <td>git init --bare project-name</td>
+                <td>Initializes a bare repository with the project name.</td>
+            </tr>
+            <tr>
+                <td>git clone link-to-repository</td>
+                <td>Creates a git repository copy from a remote source.</td>
+            </tr>
+            <tr>
+                <td>git status</td>
+                <td>Shows the status of the local copy of the repository.</td>
+            </tr>
+            <tr>
+                <td>git add filename</td>
+                <td>Adds the file changes to your index.</td>
+            </tr>
+            <tr>
+                <td>git add *</td>
+                <td>Adds all file changes to your index.</td>
+            </tr>
+            <tr>
+                <td>git commit -m "Message"</td>
+                <td>Commits the changes in the index with the message given.</td>
+            </tr>
+            <tr>
+                <td>git push</td>
+                <td>Pushes the latest commit to the remote repository.</td>
+            </tr>
+            <tr>
+                <td>git pull</td>
+                <td>Gets changes from the remote repository.</td>
+            </tr>
+            <tr>
+                <td>git log</td>
+                <td>Shows the list of commits on the branch.</td>
+            </tr>
+            <tr>
+                <td>git checkout newbranch</td>
+                <td>Checks out a new branch.</td>
+            </tr>
+            <tr>
+                <td>git merge new-version</td>
+                <td>Merges branches into your current version.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>C Programming</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>gcc main.c</td>
+                <td>Compiles main.c to make an executable, default name is a.out .</td>
+            </tr>
+            <tr>
+                <td>gcc main.c -o name</td>
+                <td>Compiles main.c to make an executable with the given name.</td>
+            </tr>
+            <tr>
+                <td>gcc -E main.c -o main.i</td>
+                <td>Preprocessess main.c to main.i .</td>
+            </tr>
+            <tr>
+                <td>gcc -S main.c -o main.s</td>
+                <td>Compiles main.c to assembly instructions in main.s .</td>
+            </tr>
+            <tr>
+                <td>gcc -c main.c -o main.o</td>
+                <td>Assembles main.c into machine code, creating an object file, main.o .</td>
+            </tr>
+            <tr>
+                <td>gcc main.o -o main.out</td>
+                <td>Links the object file main.o into an executable.</td>
+            </tr>
+            <tr>
+                <td>-Wall</td>
+                <td>Flag used to show major warnings when compiling.</td>
+            </tr>
+            <tr>
+                <td>-Wextra</td>
+                <td>Flag used to show minor warnings when compiling.</td>
+            </tr>
+            <tr>
+                <td>-std=c99</td>
+                <td>Flag used to specify the C99 standards.</td>
+            </tr>
+            <tr>
+                <td>-pedantic</td>
+                <td>Flag that is picky about syntax in source files.</td>
+            </tr>
+        </table>
+        <h3>C++ Programming</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>g++ main.cpp</td>
+                <td>Compiles main.cpp to make an executable, default name is a.out .</td>
+            </tr>
+            <tr>
+                <td>g++ main.cpp -o main.out</td>
+                <td>Compiles main.cpp to make an executable named main.out .</td>
+            </tr>
+            <tr>
+                <td>g++ -E main.cpp -o main.i</td>
+                <td>Preprocesses main.c to main.i .</td>
+            </tr>
+            <tr>
+                <td>g++ -S main.cpp -o main.s</td>
+                <td>Compiles main.c to assembly instructions in main.s .</td>
+            </tr>
+            <tr>
+                <td>g++ -c main.cpp -o main.o</td>
+                <td>Assembles main.cpp into machine code, creating an object file, main.o .</td>
+            </tr>
+            <tr>
+                <td>g++ main.o -o main.out</td>
+                <td>Links the object file main.o into an executable.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>Java Programming</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>javac file.java</td>
+                <td>Compiles file.java to file.class .</td>
+            </tr>
+            <tr>
+                <td>java file</td>
+                <td>Runs file.class through the jvm.</td>
+            </tr>
+            <tr>
+                <td>java src/file.java -d out</td>
+                <td>Compiles file.java in the src directory into file.class in the out directory.</td>
+            </tr>
+            <tr>
+                <td>java -cp ./out file</td>
+                <td>Runs file.class, which is in the out/ directory, through the jvm.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>Python Programming</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>python file.py</td>
+                <td>Runs file.py using the default version of python.</td>
+            </tr>
+            <tr>
+                <td>python2 file.py</td>
+                <td>Runs file.py using the version of python 2 installed.</td>
+            </tr>
+            <tr>
+                <td>python3 file.py</td>
+                <td>Runs file.py using the version of python 3 installed.</td>
+            </tr>
+        </table>
+        <br/><br/>
+        <h3>Miscellaneous</h3>
+        <table border=1 width="90%" cellpadding="5">
+            <tr>
+                <th>Command/Flag</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>unzip file.zip</td>
+                <td>Extracts the zip file in the current directory.</td>
+            </tr>
+            <tr>
+                <td>zip new.zip file1 file2 directory1</td>
+                <td>Creates a zip file by compressing all the files and directories named.</td>
+            </tr>
+            <tr>
+                <td>tar -cvf file.tar file1 file2 file3</td>
+                <td>Creates a tarball of the 3 files.</td>
+            </tr>
+            <tr>
+                <td>tar -xvf file.tar</td>
+                <td>Expands the tarball in the current directory.</td>
+            </tr>
+            <tr>
+                <td>tar -zcvf archive.tar.gz directory</td>
+                <td>Creates a compressed tarball of the directory specified.</td>
+            </tr>
+            <tr>
+                <td>tar -zxvf archive.tar.gz</td>
+                <td>Extracts and expands the compressed tarball.</td>
+            </tr>
+            <tr>
+                <td>sh script.sh</td>
+                <td>Runs the shell script in the terminal.</td>
+            </tr>
+        </table>
+    </div>
+    <footer>Copyright &copy; 2017 Copyright Holder All Rights Reserved. Anthony Palumbo</footer>
+</body>
+</html>

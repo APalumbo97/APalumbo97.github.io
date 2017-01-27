@@ -178,6 +178,15 @@ nav ul a {
     float: center;
 }
 
+#shortcuts {
+    margin: 5em;
+    padding: 1em;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
 @media screen and (max-width: 580px) {
     nav ul {
         max-height: 0px;
@@ -241,5 +250,15 @@ nav ul a {
         margin: 0px;
         width: 100%;
         padding: 0;
+    }
+
+    #shortcuts {
+        margin: 0;
+        margin-bottom: 30px;
+        width: 100%;
+        border: none;
+        float: left;
+        border-radius: 0em;
+        padding: 20;
     }
 }
