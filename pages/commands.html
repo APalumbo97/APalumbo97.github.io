@@ -341,11 +341,11 @@
                 <td>Runs file.class through the jvm.</td>
             </tr>
             <tr>
-                <td>javac src/file.java -d out</td>
+                <td>javac -sourcepath src src/file.java -d out</td>
                 <td>Compiles file.java in the src directory into file.class in the out directory.</td>
             </tr>
             <tr>
-                <td>java -cp ./out file</td>
+                <td>java -cp out file</td>
                 <td>Runs file.class, which is in the out/ directory, through the jvm.</td>
             </tr>
             <tr>
