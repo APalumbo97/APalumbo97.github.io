@@ -30,8 +30,8 @@ body {
 header {
     width: 100%;
     padding: 40px 0;
-    color: #04FF00;
-    text-shadow: 2px 2px black;
+    color: #00FF1D;
+    text-shadow: 1px 1px black;
     text-align: center;
     font-family: "Times New Roman";
     font-style: italic;
@@ -78,7 +78,7 @@ nav ul a {
 
 .center-title {
     text-align: center;
-    color: #04FF00;
+    color: #00FF1D;
     text-shadow: 2px 2px black;
 }
 
