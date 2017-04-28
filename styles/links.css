@@ -18,6 +18,20 @@
     color: red;
 }
 
+.downloadLink {
+    text-align: center;
+    color: #04FF00;
+    text-decoration: underline;
+}
+
+.downloadLink:hover {
+    color: blue;
+}
+
+.downloadLink:active {
+    color: red;
+}
+
 #emailIcon {
     color: gray;
     margin-left: 40%;
@@ -49,20 +63,6 @@
 }
 
 #merit:active {
-    color: red;
-}
-
-#resLink {
-    text-align: center;
-    color: #04FF00;
-    text-decoration: underline;
-}
-
-#resLink:hover {
-    color: blue;
-}
-
-#resLink:active {
     color: red;
 }
 
