@@ -5,31 +5,35 @@
  */
 
 .githubLink {
-    color: #04FF00;
+    color: #00FF00;
     text-decoration: none;
 }
 
 .githubLink:hover {
     color: blue;
-    text-decoration: underline;
+    font-style: italic;
 }
 
 .githubLink:active {
     color: red;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .downloadLink {
     text-align: center;
-    color: #04FF00;
-    text-decoration: underline;
+    color: #00FFFF;
+    text-decoration: none;
 }
 
 .downloadLink:hover {
     color: blue;
+    text-decoration: underline;
 }
 
 .downloadLink:active {
     color: red;
+    text-decoration: underline;
 }
 
 #emailIcon {
