@@ -52,6 +52,7 @@
     <h1 class="center-title">Unix Commands</h1>
     <br/><br/><br/>
     <div id=shortcuts>
+        <p>Common unix commands I have used and put together for quick reference.</p><br/>
         <h3>Navigation</h3>
         <table border=1 width="85%" cellpadding="5">
             <tr>
@@ -228,14 +229,14 @@
             </tr>
             <tr>
                 <td>git diff</td>
-                <td>Shows changes to the files from commits.</td>
+                <td>Shows the changes that have not been added to the index, i.e. not staged.</td>
             </tr>
             <tr>
-                <td>git add filename</td>
+                <td>git add/stage filename</td>
                 <td>Adds the file changes to your index.</td>
             </tr>
             <tr>
-                <td>git add *</td>
+                <td>git add/stage *</td>
                 <td>Adds all file changes to your index.</td>
             </tr>
             <tr>
@@ -245,6 +246,18 @@
             <tr>
                 <td>git commit --amend</td>
                 <td>Adds the current staged changes to the last commit for the repository.</td>
+            </tr>
+            <tr>
+                <td>git stash</td>
+                <td>Saves the local changes while reverting the working tree back to the HEAD.</td>
+            </tr>
+            <tr>
+                <td>git stash apply</td>
+                <td>Restores the changes from the last stash, without removing them from the stash list.</td>
+            </tr>
+            <tr>
+                <td>git stash pop</td>
+                <td>Restores the changes from the last stash, removing them from the stash list.</td>
             </tr>
             <tr>
                 <td>git reset</td>
