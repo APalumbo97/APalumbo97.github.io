@@ -188,6 +188,16 @@ nav ul a {
     border-radius: 20px;
 }
 
+#websiteTitle {
+    color: #00FFFF;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
 @media screen and (max-width: 580px) {
     nav ul {
         max-height: 0px;
