@@ -38,8 +38,8 @@
 
 #emailIcon {
     color: gray;
-    margin-left: 47%;
-    margin-right: 50%;
+    text-align: center;
+    width: 100%;
 }
 
 #emailIcon:hover {
@@ -48,8 +48,8 @@
 
 #githubIcon {
     color: gray;
-    margin-left: 47%;
-    margin-right: 50%;
+    text-align: center;
+    width: 100%;
 }
 
 #githubIcon:hover {
@@ -58,8 +58,8 @@
 
 #stackIcon {
     color: gray;
-    margin-left: 47%;
-    margin-right: 50%;
+    text-align: center;
+    width: 100%;
 }
 
 #stackIcon:hover {
