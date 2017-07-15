@@ -254,13 +254,6 @@ nav ul a {
         padding: 1.5em;
     }
 
-    .res {
-        width: 100%;
-        margin: 0px auto;
-        border: none;
-        border-radius: 0px;
-    }
-
     .showing {
         max-height: 20em;
     }
@@ -268,6 +261,13 @@ nav ul a {
     .images {
         width: 100%;
         height: auto;
+    }
+
+    #res {
+        width: 100%;
+        margin: 0px auto;
+        border: none;
+        border-radius: 0px;
     }
 
     #shortcuts {
