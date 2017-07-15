@@ -113,6 +113,10 @@ nav ul a {
     float: center;
 }
 
+.longCommand {
+    font-size: 1;
+}
+
 .menuImg {
     float: right;
 }
@@ -194,10 +198,10 @@ nav ul a {
     font-family: "Times New Roman";
     font-style: italic;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 3em;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 650px) {
     nav ul {
         max-height: 0px;
     }
@@ -228,6 +232,10 @@ nav ul a {
         width: 100%;
         margin: 0;
         padding: 0;
+    }
+
+    .longCommand {
+        font-size: 0.75em;
     }
 
     .paragraph {
@@ -270,5 +278,9 @@ nav ul a {
         float: left;
         border-radius: 0em;
         padding: 0;
+    }
+
+    #websiteTitle {
+        font-size: 2em;
     }
 }
