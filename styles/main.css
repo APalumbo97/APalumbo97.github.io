@@ -264,7 +264,7 @@ nav ul a {
     }
 
     #res {
-        width: 100%;
+        width: auto;
         margin: 0px auto;
         border: none;
         border-radius: 0px;
