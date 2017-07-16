@@ -76,6 +76,10 @@ nav ul a {
     color: white;
 }
 
+noscript {
+    text-align: center;
+}
+
 .center-title {
     text-align: center;
     color: #00FFFF;

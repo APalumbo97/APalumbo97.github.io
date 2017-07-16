@@ -8,15 +8,14 @@
  * Loads a higher resolution wallpaper image.
  */
 function loadBackground() {
-    setTimeout(function() {
-        var path = window.location.pathname;
-        var page = path.split("/").pop();
-        if (page != "index.html") {
-            document.body.style.backgroundImage = 'url("../images/wallpaperHigh.jpg")';
-        } else {
+    window.addEventListener("load", function() {
+        var page = window.location.pathname.split("/").pop();
+        if (page == "index.html") {
             document.body.style.backgroundImage = 'url("images/wallpaperHigh.jpg")';
+        } else {
+            document.body.style.backgroundImage = 'url("../images/wallpaperHigh.jpg")';
         }
-    }, 10);
+    }, false);
 }
 
 loadBackground();
