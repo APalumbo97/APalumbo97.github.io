@@ -9,4 +9,5 @@
  */
 function showEmail() {
     document.getElementById("email").innerHTML = "ajpalumbo97@gmail.com";
+    document.getElementById("emailButton").style.opacity = 0.5;
 }

@@ -157,6 +157,13 @@ noscript {
     list-style: none;
 }
 
+#emailButton {
+    background-color: #5194FF;
+    border: 1px solid;
+    border-color: #51AEFF;
+    border-radius: 8px;
+}
+
 #liBadge {
     margin: 20px;
     float: center;
