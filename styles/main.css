@@ -86,6 +86,11 @@ noscript {
     text-shadow: 2px 2px black;
 }
 
+.commandsTable {
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
 .connect {
     margin: auto;
     margin-bottom: 2em;
