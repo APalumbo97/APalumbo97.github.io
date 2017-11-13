@@ -20,7 +20,7 @@ body {
     max-height: 1080px;
     min-width: 60px;
     width: device-width;
-    font-family: arial;
+    font-family: "Roboto", sans-serif;
     font-size: 12;
     zoom: 100%;
     min-height: 100%;
@@ -30,10 +30,10 @@ body {
 header {
     width: 100%;
     padding: 40px 0;
-    color: #00FFFF;
+    color: #808080;
     text-shadow: 1px 1px black;
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: bold;
 }
@@ -82,7 +82,7 @@ noscript {
 
 .center-title {
     text-align: center;
-    color: #00FFFF;
+    color: #808080;
     text-shadow: 2px 2px black;
 }
 
@@ -212,10 +212,10 @@ noscript {
 }
 
 #websiteTitle {
-    color: #00FFFF;
+    color: #808080;
     text-shadow: 1px 1px black;
     text-align: center;
-    font-family: "Times New Roman";
+    font-family: "Roboto", sans-serif;
     font-style: italic;
     font-weight: bold;
     font-size: 3em;
