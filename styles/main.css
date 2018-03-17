@@ -84,6 +84,7 @@ noscript {
     text-align: center;
     color: #808080;
     text-shadow: 2px 2px black;
+    font-size: 2em;
 }
 
 .commandsTable {
@@ -110,6 +111,12 @@ noscript {
     padding: 15px 10px;
     cursor: pointer;
     display: none;
+}
+
+.images {
+    width: 450px;
+    height: auto;
+    margin: 0;
 }
 
 .info {
@@ -152,12 +159,6 @@ noscript {
     line-height: 1.5em;
     border: 1px solid black;
     border-radius: 20px;
-}
-
-.images {
-    width: 450px;
-    height: auto;
-    margin: 0;
 }
 
 #connectList {
@@ -248,6 +249,11 @@ noscript {
         display: block;
     }
 
+    .images {
+        width: 100%;
+        height: auto;
+    }
+
     .largeBox {
         width: 100%;
         margin: 0;
@@ -276,11 +282,6 @@ noscript {
 
     .showing {
         max-height: 20em;
-    }
-
-    .images {
-        width: 100%;
-        height: auto;
     }
 
     #res {
