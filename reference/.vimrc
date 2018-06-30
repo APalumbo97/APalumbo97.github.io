@@ -1,0 +1,5 @@
+filetype plugin indent on
+syntax on
+highlight ColorColumn ctermbg=gray
+set tabstop=4 shiftwidth=4 softtabstop=0 smarttab number colorcolumn=100 wrap linebreak
+set textwidth=0 nolist " list disables linebreak

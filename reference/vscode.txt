@@ -1,0 +1,20 @@
+{
+    "workbench.colorTheme": "Sapphire (Dim)",
+    "editor.autoClosingBrackets": true,
+    "editor.autoIndent": true,
+    "editor.fontSize": 14,
+    "editor.insertSpaces": true,
+    "editor.matchBrackets": true,
+    "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": false,
+    "editor.tabSize": 4,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.showIcons": true,
+    "workbench.editor.showTabs": true,
+    "files.autoSave": "off",
+    "files.encoding": "utf8",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "html.autoClosingTags": false,
+    "html.format.extraLiners": ""
+}
