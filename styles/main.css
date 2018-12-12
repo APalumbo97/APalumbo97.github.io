@@ -19,11 +19,11 @@ body {
     max-width: 1920px;
     max-height: 1080px;
     min-width: 60px;
+    min-height: 100%;
     width: device-width;
     font-family: "Roboto", sans-serif;
     font-size: 12;
     zoom: 100%;
-    min-height: 100%;
     margin-bottom: -50px;
 }
 
@@ -188,6 +188,7 @@ noscript {
     border-radius: 20px;
     margin: 5%;
     width: 80%;
+    height: auto;
 }
 
 #resume {
