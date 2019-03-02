@@ -126,6 +126,13 @@ noscript {
     line-height: 1.5em;
 }
 
+.infoCenter {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
 .largeBox {
     margin: 1em;
     float: center;
