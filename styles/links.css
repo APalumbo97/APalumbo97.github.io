@@ -36,6 +36,21 @@
     text-decoration: underline;
 }
 
+.externalLink {
+    color: #4AFFF3;
+    text-decoration: none;
+}
+
+.externalLink:hover {
+    color: blue;
+    font-style: italic;
+}
+
+.externalLink:active {
+    color: red;
+    text-decoration: underline;
+}
+
 #emailIcon {
     color: gray;
     text-align: center;
