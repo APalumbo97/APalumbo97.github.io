@@ -8,6 +8,6 @@
  * Inserts email address into a paragraph when called.
  */
 function showEmail() {
-    document.getElementById("email").innerHTML = "ajp1925 AT rit.edu";
+    document.getElementById("email").innerHTML = "ajpalumbo97 AT gmail DOT com";
     document.getElementById("emailButton").style.opacity = 0.5;
 }
